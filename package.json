@@ -1,0 +1,16 @@
+{
+  "name": "lab11-ci-cd-github-actions",
+  "version": "1.0.0",
+  "description": "Лабораторная работа 11 — CI/CD с GitHub Actions, Selenium и GitHub Pages",
+  "scripts": {
+    "start": "http-server public -p 3000",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.21.0",
+    "start-server-and-test": "^2.0.3",
+    "wait-on": "^7.2.0"
+  }
+}
